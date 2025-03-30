@@ -4,7 +4,7 @@ from selenium_scraper import get_email_with_selenium
 from bs4 import BeautifulSoup
 
 def main():
-    url = 'https://www.ki.uni-stuttgart.de/departments/sir/department/'
+    url = 'ADD_THE_URL_HERE'
     page_content = get_page_content(url)
     
     if not page_content:
